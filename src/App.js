@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
 import "./App.css";
+import Success from "./components/Success";
 
 const App = () => {
   return (
@@ -10,6 +11,9 @@ const App = () => {
         <img src="../logo.svg" alt="Logo" />
       </div>
       <Switch>
+        <Route path="/success">
+          <Success/>
+        </Route>
         <Route path="/">
           <Home />
         </Route>
