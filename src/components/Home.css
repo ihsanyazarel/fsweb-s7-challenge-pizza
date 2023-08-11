@@ -1,0 +1,29 @@
+.home-page {
+    background-image: url("../../Assets/mvp-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+.text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 4rem;
+    color: #FAF7F2;
+    transform: scaleY(1.5);
+}
+
+#order-pizza {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-color: #FDC913;
+    border: 0rem;
+    font-weight: bold;
+}
+
+#order-pizza a {
+    color: black;
+    text-decoration: none;
+}

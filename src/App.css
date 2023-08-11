@@ -1,0 +1,11 @@
+body {
+    background-color: #CE2829;
+  }
+  
+.header {
+    font-size: 100%;
+    background-color: #CE2829;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+  }

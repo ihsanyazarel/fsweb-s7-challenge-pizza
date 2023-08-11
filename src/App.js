@@ -1,14 +1,20 @@
 import React from "react";
+import Home from "./components/Home";
+import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+import "./App.css";
 
 const App = () => {
   return (
-    <>
-      <h1 className="text-red-600">Teknolojik Yemekler</h1>
-      <p className="text-xl font-bold underline">
-        Burdaki kodu silip kendi headerınızı ekleyebilirsiniz
-      </p>
-      <h1 className="text-5xl font-bold underline text-red-600">Hello world!</h1>
-    </>
+    <div>
+      <div className="header">
+        <img src="../logo.svg" alt="Logo" />
+      </div>
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </div>
   );
 };
 export default App;
